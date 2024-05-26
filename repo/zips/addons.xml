@@ -137,10 +137,10 @@
 [COLOR lime]--[/COLOR][I][/I]
 		</news>
 	</extension>
-</addon><addon id="plugin.video.wutu" name="[COLOR lime]Wutu[/COLOR]" provider-name="wutu" version="0.0.8">
+</addon><addon id="plugin.video.wutu" name="[COLOR lime]Wutu[/COLOR]" provider-name="wutu" version="0.0.9">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
-		<import addon="context.wutu" version="0.0.3" />
+		<import addon="context.wutu" version="0.0.4" />
 		<import addon="script.module.myaccounts" version="2.0.6" />
 		<import addon="script.module.ezscrapers" version="0.1.1" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -166,4 +166,22 @@
 		<news>
 		</news>
 	</extension>
+</addon><addon id="repository.juic3b0x" name="juic3b0x Repository" version="0.0.3" provider-name="Ezra-Hubbard">
+    <extension point="xbmc.addon.repository" name="juic3b0x Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/juic3b0x/repository.juic3b0x/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/juic3b0x/repository.juic3b0x/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/juic3b0x/repository.juic3b0x/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>juic3b0x</summary>
+        <description>From the pen of juic3b0x</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon></addons>

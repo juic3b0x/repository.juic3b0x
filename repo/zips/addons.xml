@@ -196,7 +196,7 @@
 		<news>
 		</news>
 	</extension>
-</addon><addon id="repository.juic3b0x" name="juic3b0x Repository" version="0.0.3" provider-name="Ezra-Hubbard">
+</addon><addon id="repository.juic3b0x" name="juic3b0x Repository" version="0.0.4" provider-name="juic3b0x">
     <extension point="xbmc.addon.repository" name="juic3b0x Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/juic3b0x/repository.juic3b0x/master/repo/zips/addons.xml</info>
